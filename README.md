@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-I'm Alessandro, a software engineer living in Amsterdam, working at Microsoft and in my spare time as trainer for all things Cloud Native & Kubernetes. I organized the [Dutch Kubernetes Meetup](https://www.meetup.com/Dutch-Kubernetes-Meetup/) and [Kubernetes Community Days Amsterdam](https://kubernetescommunitydays.org/events/2021-amsterdam/)
+I'm Alessandro, a software engineer living in Amsterdam, working at Microsoft and in my spare time as trainer for all things Cloud Native & Kubernetes. I organized the [Dutch Kubernetes Meetup](https://www.meetup.com/Dutch-Kubernetes-Meetup/) and [Kubernetes Community Days Amsterdam](https://kubernetescommunitydays.org/events/2021-amsterdam/). 
 
 
 How to reach me:
