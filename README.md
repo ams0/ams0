@@ -25,7 +25,7 @@ Some videos of me will soon appear under [/videos](https://github.com/ams0/ams0/
 
 ### A little history:
 
-I started working with computers at the early age of 8, with a Commodore64, playing games and tinkering around with my [brother](https://www.linkedin.com/in/francescovozza/). I discovered Linux in 1999, installing [Slackware 0.9](http://www.slackware.com/) on the old PC's at the Chemistry department of the University of Ferrara, and I never really stopped loving open source software.
+I started working with computers at the early age of 8, with a Commodore64 around 1983, playing games and tinkering around with my [brother](https://www.linkedin.com/in/francescovozza/). I discovered Linux in 1999, installing [Slackware 0.9](http://www.slackware.com/) on the old PC's at the Chemistry department of the University of Ferrara, and I never really stopped loving open source software.
 
 I studied chemistry all my academic life, and I attended the Ph.D. program at the University of Amsterdam under Professor Fred Brouwer. I published a few scientific articles, here's a [list](https://www.researchgate.net/scientific-contributions/Alessandro-Vozza-42522315).
 
