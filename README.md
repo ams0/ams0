@@ -2,6 +2,8 @@
 
 <img src="images/me.jpg" width="200">
 
+![visitors](https://visitor-badge.glitch.me/badge?page_id=ams0.ams0)
+
 I'm Alessandro, a software engineer living in Amsterdam, working at Microsoft and in my spare time as trainer for all things Cloud Native & Kubernetes. I organize the [Dutch Kubernetes Meetup](https://www.meetup.com/Dutch-Kubernetes-Meetup/) and [Kubernetes Community Days Amsterdam](https://kubernetescommunitydays.org/events/2021-amsterdam/).
 
 ### Things I believe in:
