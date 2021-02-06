@@ -1,11 +1,12 @@
 ### Hi there 👋
 
-<img src="images/me.jpg" width="200">
+<p align="center"><img src="images/me.jpg" width="200">
 
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=ams0.ams0) <p align="center">
 <a href= "https://medium.com/cooking-with-azure"><img src="https://img.icons8.com/windows/32/000000/medium.png"/></a>
 <a href= "https://www.twitter.com/bongo"><img src="https://img.icons8.com/material-outlined/32/000000/twitter.png"/></a>
 <a href= "https://www.linkedin.com/in/alessandrovozza"><img src="https://img.icons8.com/metro/26/000000/linkedin.png"/></a>
+
 </p>
 
 I'm Alessandro, a software engineer living in Amsterdam, working at Microsoft and in my spare time as trainer for all things Cloud Native & Kubernetes. I organize the [Dutch Kubernetes Meetup](https://www.meetup.com/Dutch-Kubernetes-Meetup/) and [Kubernetes Community Days Amsterdam](https://kubernetescommunitydays.org/events/2021-amsterdam/).
@@ -42,3 +43,5 @@ I studied chemistry all my academic life, and I attended the Ph.D. program at th
 - Slack: alessandro @ [slack.k8s.io](https://slack.k8s.io)
 - Discord: huxley#2417
 - Good 'ol [email](alessandro.vozza@microsoft.com)
+
+<img src="https://github-readme-stats.vercel.app/api?username=ams0&show_icons=true&hide_border=true&count_private=true&theme=merko&icon_color=fad000" alt="Alessandro's GitHub Stats">
