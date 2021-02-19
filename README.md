@@ -42,6 +42,8 @@ I studied chemistry all my academic life, and I attended the Ph.D. program at th
 
 After my experience at the UvA, I switched careers and moved thru a number of organizations until I scored my dream job at Red Hat (for an open source software lover, there was nothing better!). I eventually left and stared my own company, [Lovelace Engineering](http://lovelace.engineering/) (in memory of [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace)), and after a while joined Microsoft as Technical Evangelist and now as a Principal Software Engineer in the Commercial Software Engineering organization.
 
+<img src="images/octo.png" alt="drawing" width="120"/>
+
 ### How to reach me:
 
 - Twitter: [@bongo](https://twitter.com/bongo)
