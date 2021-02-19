@@ -28,13 +28,17 @@ I'm Alessandro, a software engineer living in Amsterdam, working at Microsoft an
 
 You can find my blog on Medium under the [Cooking with Azure](https://medium.com/cooking-with-azure) publication. My (almost) current CV is in [here](files/CV_2020.pdf).
 
-Some videos of me will soon appear under [/videos](https://github.com/ams0/ams0/tree/main/videos), and I hope soon to be able to post some cool techno set or track on my [Soundcloud](https://soundcloud.com/djmon0).
+Some videos of me will soon appear under [/videos](https://github.com/ams0/ams0/tree/main/videos), and I hope to be able to post some cool techno set or track on my [Soundcloud](https://soundcloud.com/djmon0) soon.
 
-### A little history:
+### A little history of me:
 
-I started working with computers at the early age of 8, with a Commodore64 around 1983, playing games and tinkering around with my [brother](https://www.linkedin.com/in/francescovozza/). I discovered Linux in 1999, installing [Slackware 0.9](http://www.slackware.com/) on the old PC's at the Chemistry department of the University of Ferrara, and I never really stopped loving open source software.
+I started working with computers at the early age of 8, with a Commodore64 around 1983, playing games and tinkering around with my [brother](https://www.linkedin.com/in/francescovozza/) on a [Commodore64](https://en.wikipedia.org/wiki/Commodore_64):
 
-I studied chemistry all my academic life, and I attended the Ph.D. program at the University of Amsterdam under Professor Fred Brouwer. I published a few scientific articles, here's a [list](https://www.researchgate.net/scientific-contributions/Alessandro-Vozza-42522315).
+<center><img src="images/Commodore-64-Computer.png" alt="drawing" width="200"/></center>
+
+I discovered Linux in 1999, installing [Slackware 0.9](http://www.slackware.com/) on the old PC's at the Chemistry department of the University of Ferrara (and joined the [Ferrara Linux User Grup](https://ferrara.linux.it/)), and I never really stopped loving open source software.
+
+I studied chemistry all my academic life, and I attended the Ph.D. program at the University of Amsterdam under Professor Fred Brouwer. I published a few scientific articles, here's a [list](https://www.researchgate.net/scientific-contributions/Alessandro-Vozza-42522315). My research was mainly about synthetic organic synthesis of metal-organic compounds and their study with ultrafast femtosecond laser spectroscopy.
 
 ### How to reach me:
 
