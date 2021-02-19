@@ -40,6 +40,8 @@ I discovered Linux in 1999, installing [Slackware 0.9](http://www.slackware.com/
 
 I studied chemistry all my academic life, and I attended the Ph.D. program at the University of Amsterdam under Professor Fred Brouwer. I published a few scientific articles, here's a [list](https://www.researchgate.net/scientific-contributions/Alessandro-Vozza-42522315). My research was mainly about synthetic organic synthesis of metal-organic compounds and their study with ultrafast femtosecond laser spectroscopy.
 
+After my experience at the UvA, I switched careers and moved thru a number of organizations until I scored my dream job at Red Hat (for an open source software lover, there was nothing better!). I eventually left and stared my own company, [Lovelace Engineering](http://lovelace.engineering/) (in memory of [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace)), and after a while joined Microsoft as Technical Evangelist and now as a Principal Software Engineer in the Commercial Software Engineering organization.
+
 ### How to reach me:
 
 - Twitter: [@bongo](https://twitter.com/bongo)
