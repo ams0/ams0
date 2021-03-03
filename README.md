@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-<p align="center"><img src="images/me.jpg" width="200">
+<p align="center"><img src="images/me2.jpg" width="200">
 
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=ams0.ams0) <p align="center">
 <a href= "https://medium.com/cooking-with-azure"><img src="https://img.icons8.com/windows/32/000000/medium.png"/></a>
