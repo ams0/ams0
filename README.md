@@ -6,7 +6,7 @@
 <a href= "https://medium.com/cooking-with-azure"><img src="https://img.icons8.com/windows/32/000000/medium.png"/></a>
 <a href= "https://www.twitter.com/bongo"><img src="https://img.icons8.com/material-outlined/32/000000/twitter.png"/></a>
 <a href= "https://www.linkedin.com/in/alessandrovozza"><img src="https://img.icons8.com/metro/26/000000/linkedin.png"/></a>
-
+<br><a href= "https://emea.mail.microsoft.com/owa/calendar/Microsoft3088644@microsoft.onmicrosoft.com/bookings/s/zYMCTqGSpUCpRY7uIx8lAw2">Book a meeting with me
 </p>
 
 I'm Alessandro, a software engineer living in Amsterdam, working at Microsoft and in my spare time as trainer for all things Cloud Native & Kubernetes. I organize the [Dutch Kubernetes Meetup](https://www.meetup.com/Dutch-Kubernetes-Meetup/) and [Kubernetes Community Days Amsterdam](https://kubernetescommunitydays.org/events/2021-amsterdam/).
