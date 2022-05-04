@@ -56,3 +56,12 @@ After my experience at the UvA, I switched careers and moved thru a number of or
 
 <img src="https://github-readme-stats.vercel.app/api?username=ams0&show_icons=true&hide_border=true&count_private=true&theme=merko&icon_color=fad000" alt="Alessandro's GitHub Stats">
 
+### 📈 &nbsp;Analytics
+
+<p align="center">
+  <a href="https://coderstats.net/github/#Dentrax">
+    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=ams0&show_icons=true&theme=algolia&include_all_commits=true&count_private=true&line_height=26"/>
+    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=ams0&layout=compact&langs_count=8&theme=algolia&line_height=26"/>
+  </a>
+</p>
+
