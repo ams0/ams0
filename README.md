@@ -54,8 +54,6 @@ After my experience at the UvA, I switched careers and moved thru a number of or
 - Discord: huxley#2417
 - Good 'ol [email](alessandro.vozza@microsoft.com)
 
-<img src="https://github-readme-stats.vercel.app/api?username=ams0&show_icons=true&hide_border=true&count_private=true&theme=merko&icon_color=fad000" alt="Alessandro's GitHub Stats">
-
 ### 📈 &nbsp;Analytics
 
 <p align="center">
