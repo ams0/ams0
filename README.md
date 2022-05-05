@@ -66,3 +66,11 @@ After my experience at the UvA, I switched careers and moved thru a number of or
 ### :zap: Recent Activity
 
 <!--START_SECTION:activity-->
+1. ❗️ Opened issue [#2](https://github.com/KubernetesCommunityDaysAmsterdam/KubernetesCommunityDaysAmsterdam/issues/2) in [KubernetesCommunityDaysAmsterdam/KubernetesCommunityDaysAmsterdam](https://github.com/KubernetesCommunityDaysAmsterdam/KubernetesCommunityDaysAmsterdam)
+2. ❗️ Opened issue [#9572](https://github.com/bitnami/charts/issues/9572) in [bitnami/charts](https://github.com/bitnami/charts)
+3. ❗️ Opened issue [#1](https://github.com/KubernetesCommunityDaysAmsterdam/KubernetesCommunityDaysAmsterdam/issues/1) in [KubernetesCommunityDaysAmsterdam/KubernetesCommunityDaysAmsterdam](https://github.com/KubernetesCommunityDaysAmsterdam/KubernetesCommunityDaysAmsterdam)
+4. 🗣 Commented on [#19](https://github.com/Trendyol/kink/issues/19) in [Trendyol/kink](https://github.com/Trendyol/kink)
+5. 🗣 Commented on [#2](https://github.com/Azure/acr-build/issues/2) in [Azure/acr-build](https://github.com/Azure/acr-build)
+6. 🎉 Merged PR [#4](https://github.com/Azure/acr-build/pull/4) in [Azure/acr-build](https://github.com/Azure/acr-build)
+7. 🗣 Commented on [#2698](https://github.com/Azure/AKS/issues/2698) in [Azure/AKS](https://github.com/Azure/AKS)
+<!--END_SECTION:activity-->
