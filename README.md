@@ -63,3 +63,6 @@ After my experience at the UvA, I switched careers and moved thru a number of or
   </a>
 </p>
 
+### :zap: Recent Activity
+
+<!--START_SECTION:activity-->
