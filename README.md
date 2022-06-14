@@ -66,11 +66,11 @@ After my experience at the UvA, I switched careers and moved thru a number of or
 ### :zap: Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#106](https://github.com/microsoft/NubesGen/issues/106) in [microsoft/NubesGen](https://github.com/microsoft/NubesGen)
-2. 🎉 Merged PR [#2](https://github.com/ams0/aks-tf-pipeline/pull/2) in [ams0/aks-tf-pipeline](https://github.com/ams0/aks-tf-pipeline)
-3. 💪 Opened PR [#2](https://github.com/ams0/aks-tf-pipeline/pull/2) in [ams0/aks-tf-pipeline](https://github.com/ams0/aks-tf-pipeline)
-4. ❗️ Opened issue [#2](https://github.com/KubernetesCommunityDaysAmsterdam/KubernetesCommunityDaysAmsterdam/issues/2) in [KubernetesCommunityDaysAmsterdam/KubernetesCommunityDaysAmsterdam](https://github.com/KubernetesCommunityDaysAmsterdam/KubernetesCommunityDaysAmsterdam)
-5. ❗️ Opened issue [#9572](https://github.com/bitnami/charts/issues/9572) in [bitnami/charts](https://github.com/bitnami/charts)
-6. ❗️ Opened issue [#1](https://github.com/KubernetesCommunityDaysAmsterdam/KubernetesCommunityDaysAmsterdam/issues/1) in [KubernetesCommunityDaysAmsterdam/KubernetesCommunityDaysAmsterdam](https://github.com/KubernetesCommunityDaysAmsterdam/KubernetesCommunityDaysAmsterdam)
+1. 🗣 Commented on [#389](https://github.com/cncf/kubernetes-community-days/issues/389) in [cncf/kubernetes-community-days](https://github.com/cncf/kubernetes-community-days)
+2. 🗣 Commented on [#106](https://github.com/microsoft/NubesGen/issues/106) in [microsoft/NubesGen](https://github.com/microsoft/NubesGen)
+3. 🎉 Merged PR [#2](https://github.com/ams0/aks-tf-pipeline/pull/2) in [ams0/aks-tf-pipeline](https://github.com/ams0/aks-tf-pipeline)
+4. 💪 Opened PR [#2](https://github.com/ams0/aks-tf-pipeline/pull/2) in [ams0/aks-tf-pipeline](https://github.com/ams0/aks-tf-pipeline)
+5. ❗️ Opened issue [#2](https://github.com/KubernetesCommunityDaysAmsterdam/KubernetesCommunityDaysAmsterdam/issues/2) in [KubernetesCommunityDaysAmsterdam/KubernetesCommunityDaysAmsterdam](https://github.com/KubernetesCommunityDaysAmsterdam/KubernetesCommunityDaysAmsterdam)
+6. ❗️ Opened issue [#9572](https://github.com/bitnami/charts/issues/9572) in [bitnami/charts](https://github.com/bitnami/charts)
 7. 🗣 Commented on [#2698](https://github.com/Azure/AKS/issues/2698) in [Azure/AKS](https://github.com/Azure/AKS)
 <!--END_SECTION:activity-->
