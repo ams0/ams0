@@ -11,7 +11,6 @@ series: observability
 cover_image: https://github.com/ams0/ams0/blob/0df7f60c1f426acd34450bb125388ca5f8a5df74/blog/dev.to/posts/assets/stateless-monitoring-with-aks-thanos-prometheus-grafana/images/cover.png
 canonical_url: null
 ---
-## Stateless, Secretless Multi-cluster Monitoring in Azure Kubernetes Service with Thanos, Prometheus and Azure Managed Grafana 
 
 ### Introduction 
 
@@ -209,30 +208,20 @@ This enables Prometheus and attaches two extra labels to every metrics, so it be
 This section points to the remote endpoint (secured via SSL using Let's Encrypt certificates, thus trusted by the certificate store on the AKS nodes; if you use a non-trusted certificate, refer to the [TLSConfig](https://github.com/prometheus-operator/prometheus-operator/blob/main/Documentation/api.md#tlsconfig) section of the PrometheusSpec API). Note how the credentials to access the remote endpoint are coming from the secret created beforehand and stored in the `prometheus` namespace.
 
 Note here that although Prometheus is deployed in the same cluster as Thanos for simplicity, it sends the metrics to the ingress FQDN, thus it's trivial to extend this setup to multiple, remote clusters and collect their metrics into a single, centralized Thanos receive collector (and a single blob storage), with all metrics correctly tagged and identifiable.
+
 ### Observing the stack with Azure Managed Grafana
 
 [Azure Managed Grafana](https://azure.microsoft.com/en-us/services/managed-grafana/)(AME) is a new offering in the toolset of observability tools in Azure, and it's based on the popular open source dashboarding system [Grafana](https://grafana.com). Beside out of the box integration with Azure, AME is a fully functional Grafana deployment that can be used to monitor and graph different sources, including Thanos and Prometheus. To start, head to the Azure Portal and deploy AME; then, get the endpoint from the Overview tab and connect to your AME instance.
 
 Add a new source of type Prometheus and basic authentication (the same we created before):
 
-![Datasources](https://github.com/ams0/ams0/blob/0df7f60c1f426acd34450bb125388ca5f8a5df74/blog/dev.to/posts/assets/stateless-monitoring-with-aks-thanos-prometheus-grafana/images/datasource.png)
+![Datasource](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rp7zoycug6ciw8p58h0m.png)
 
 Congratulations! We can now visualize the data flowing from Prometheus, we only need a dashboard to properly display the data. Go to (on the left side navigation bar) Dashboards-> Browse and click on Import; import the "Kubernetes / Views / Global" (ID: 15757) into your Grafana and you'll be able to see the metrics from the cluster:
 
-{% embed https://github.com/ams0/ams0/blob/0df7f60c1f426acd34450bb125388ca5f8a5df74/blog/dev.to/posts/assets/stateless-monitoring-with-aks-thanos-prometheus-grafana/images/dashboard.png }
+![Dashboard](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/x79274b48vev1dtmw5p5.png)
 
-![Dashboard](https://github.com/ams0/ams0/blob/0df7f60c1f426acd34450bb125388ca5f8a5df74/blog/dev.to/posts/assets/stateless-monitoring-with-aks-thanos-prometheus-grafana/images/dashboard.png)
-
-<div class="warning" style='padding:0.1em; background-color:#E9D8FD; color:#69337A'>
-<span>
-<p style='margin-top:1em; text-align:center'>
-<b>Cluster filtering</b></p>
-<p style='margin-left:1em;'>
 The imported dashboard has no filter for cluster or region, thus will show all cluster metrics aggregated. We will show in a future post how to add a variable to a Grafana dashboard to properly select and filter cluster views. 
-</p>
-</span>
-</div>
-
 
 ### Future work
 
