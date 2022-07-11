@@ -55,7 +55,7 @@ helm upgrade -i cert-manager \
   --set installCRDs=true \
   --set ingressShim.defaultIssuerName=letsencrypt-prod \
   --set ingressShim.defaultIssuerKind=ClusterIssuer \
-  jetstack/cert-manager
+  --repo https://charts.jetstack.io cert-manager
 
 kubectl apply -f - <<EOF
 apiVersion: cert-manager.io/v1
