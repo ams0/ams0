@@ -20,6 +20,9 @@ This article aims at cloud native engineers that face the challenge of observing
 
 This solution builds upon well-established Cloud Native Computing Foundation ([CNCF](https://cncf.io)) open source projects like Thanos and Prometheus,together with a new managed services, Azure Managed Grafana, recently released in public preview. It allows for ephemeral clusters to still have updated metrics without the classic 2-hours local storage of metrics in the sidecar deployment of Thanos,  
 
+### Diagram
+
+![Diagram](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/y46w9otcmi0562n13d4p.png)
 
 ### Prerequisites
 
