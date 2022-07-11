@@ -8,7 +8,7 @@ tags:
   - aks
   - observability
 series: observability
-cover_image: ../assets/stateless-monitoring-with-aks-thanos-prometheus-grafana/images/cover.png
+cover_image: https://github.com/ams0/ams0/blob/0df7f60c1f426acd34450bb125388ca5f8a5df74/blog/dev.to/posts/assets/stateless-monitoring-with-aks-thanos-prometheus-grafana/images/cover.png
 canonical_url: null
 ---
 ## Stateless, Secretless Multi-cluster Monitoring in Azure Kubernetes Service with Thanos, Prometheus and Azure Managed Grafana 
@@ -215,11 +215,11 @@ Note here that although Prometheus is deployed in the same cluster as Thanos for
 
 Add a new source of type Prometheus and basic authentication (the same we created before):
 
-![Datasources](../assets/stateless-monitoring-with-aks-thanos-prometheus-grafana/images/datasource.png)
+![Datasources](https://github.com/ams0/ams0/blob/0df7f60c1f426acd34450bb125388ca5f8a5df74/blog/dev.to/posts/assets/stateless-monitoring-with-aks-thanos-prometheus-grafana/images/datasource.png)
 
 Congratulations! We can now visualize the data flowing from Prometheus, we only need a dashboard to properly display the data. Go to (on the left side navigation bar) Dashboards-> Browse and click on Import; import the "Kubernetes / Views / Global" (ID: 15757) into your Grafana and you'll be able to see the metrics from the cluster:
 
-![Dashboard](../assets/stateless-monitoring-with-aks-thanos-prometheus-grafana/images/dashboard.png).
+![Dashboard](https://github.com/ams0/ams0/blob/0df7f60c1f426acd34450bb125388ca5f8a5df74/blog/dev.to/posts/assets/stateless-monitoring-with-aks-thanos-prometheus-grafana/images/dashboard.png).
 
 <div class="warning" style='padding:0.1em; background-color:#E9D8FD; color:#69337A'>
 <span>
