@@ -1,0 +1,33 @@
+global:
+  rbac:
+    create: true
+    pspEnabled: false
+alertmanager:
+  enabled: false
+kubeControllerManager:
+  enabled: false
+kubeScheduler:
+  enabled: false
+kubeEtcd:
+  enabled: false
+kube-state-metrics:
+  metricLabelsAllowlist:
+  - nodes=[agentpool,node_kubernetes_io_instance-type]
+prometheus:
+  enabled: true
+  prometheusSpec:
+    externalLabels:
+      datacenter: westeu
+      cluster: playground
+    remoteWrite:
+    - url: "https://receive.thanos.cookingwithazure.com/api/v1/receive"
+      name: Thanos
+      basicAuth:
+        username:
+          name: remotewrite-secret
+          key: user
+        password:
+          name: remotewrite-secret
+          key: password
+grafana:
+  enabled: false
