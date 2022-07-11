@@ -1,8 +1,13 @@
 ---
 title: Stateless, Secretless Multi-cluster Monitoring in Azure Kubernetes Service with Thanos, Prometheus and Azure Managed Grafana 
 published: false
-description: A simple test article
-tags: 'thanos, azure, prometheus, grafana, aks'
+description: Stateless, Secretless Multi-cluster Monitoring in Azure Kubernetes Service with Thanos, Prometheus and Azure Managed Grafana 
+tags:
+  - grafana
+  - thanos
+  - aks
+  - observability
+series: observability
 cover_image: ../assets/stateless-monitoring-with-aks-thanos-prometheus-grafana/images/cover.png
 canonical_url: null
 ---
