@@ -6,11 +6,15 @@ tags: 'thanos, azure, prometheus, grafana, aks'
 cover_image: ./assets/cat.jpg
 canonical_url: null
 ---
-## Stateless, Secretless OSS Monitoring in Azure Kubernetes Service with Thanos, Prometheus and Azure Managed Grafana 
+## Stateless, Secretless Multi-cluster Monitoring in Azure Kubernetes Service with Thanos, Prometheus and Azure Managed Grafana 
 
 ### Introduction 
 
 Observability is paramount to every distributed system and it's becoming increasingly complicated in a cloud native world where we might deploy multiple ephemeral clusters and we want to keep their metrics beyond their lifecycle span.
+
+This article aims at cloud native engineers that face the challenge of observing multiple Azure Kubernetes Clusters (AKS) and need a flexible, stateless solution, leveraging available and cost-effective blob storage for long term retention of metrics, one which does not require injecting static secrets to access the storage (as it leverage the native Azure Managed Identities associated with the cluster).
+
+This solution builds upon well-established Cloud Native Computing Foundation ([CNCF](https://cncf.io)) open source projects like Thanos and Prometheus,together with a new managed services, Azure Managed Grafana, recently released in public preview. It allows for ephemeral clusters to still have updated metrics without the classic 2-hours local storage of metrics in the sidecar deployment of Thanos,  
 
 
 ### Prerequisites
@@ -24,7 +28,7 @@ Observability is paramount to every distributed system and it's becoming increas
 
 ### Cluster-wide services
 
-For Thanos receive and query components to be available outside the cluster and secured with TLS, we will need [ingress-nginx](https://github.com/kubernetes/ingress-nginx) and [cert-manager](https://cert-manager.io/). For ingress, deploy the Helm chart using the following command, to account for this [issue](link to issue):
+For Thanos receive and query components to be available outside the cluster and secured with TLS, we will need [ingress-nginx](https://github.com/kubernetes/ingress-nginx) and [cert-manager](https://cert-manager.io/). For ingress, deploy the Helm chart using the following command, to account for this [issue](https://github.com/Azure/AKS/issues/2955):
 
 ```
 helm upgrade --install ingress-nginx ingress-nginx \
@@ -53,7 +57,7 @@ metadata:
   name: letsencrypt-prod
 spec:
   acme:
-    email: alessandro.vozza@microsoft.com
+    email: email@email.com
     server: https://acme-v02.api.letsencrypt.org/directory
     privateKeySecretRef:
       name: letsencrypt-prod
@@ -221,3 +225,7 @@ The imported dashboard has no filter for cluster or region, thus will show all c
 </p>
 </span>
 </div>
+
+### Future work
+
+This setup allows for autoscaling of ingester and query frontend as horizontal pod autoscalers are deployed and associated with the Thanos components. For even greater scalability and metrics isolation, Thanos can be deployed multiple times (each associated with different storage accounts as needed) each with a different ingress to separate at the source the metrics (thus appearing as separate sources in Grafana, which can then be displayed in the same dashboard, selecting the appropriate source for each graph and query).
