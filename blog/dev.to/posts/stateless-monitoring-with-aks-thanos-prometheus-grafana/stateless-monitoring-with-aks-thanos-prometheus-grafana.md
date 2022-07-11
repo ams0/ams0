@@ -231,6 +231,7 @@ The imported dashboard has no filter for cluster or region, thus will show all c
 </span>
 </div>
 
+
 ### Future work
 
 This setup allows for autoscaling of ingester and query frontend as horizontal pod autoscalers are deployed and associated with the Thanos components. For even greater scalability and metrics isolation, Thanos can be deployed multiple times (each associated with different storage accounts as needed) each with a different ingress to separate at the source the metrics (thus appearing as separate sources in Grafana, which can then be displayed in the same dashboard, selecting the appropriate source for each graph and query).
