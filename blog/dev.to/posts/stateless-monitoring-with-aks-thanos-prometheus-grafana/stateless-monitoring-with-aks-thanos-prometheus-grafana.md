@@ -80,10 +80,11 @@ EOF
 Last but not least, we will add add DNS record for our ingress Loadbalancer IP, so it will be seamless to get public FQDNs for our endpoints for Thanos receive and Thanos Query.
 
 ```bash
-az network dns record-set a add-record  -n "*.thanos" -g dns -z cookingwithazure.com --ipv4-address $(kubectl get svc ingress-nginx-controller -n ingress-nginx -o jsonpath="{.status.loadBalancer.ingress[0].ip}")
+az network dns record-set a add-record  -n "*.thanos" -g dns -z cookingwithazure.com \
+--ipv4-address $(kubectl get svc ingress-nginx-controller -n ingress-nginx -o jsonpath="{.status.loadBalancer.ingress[0].ip}")
 ```
 
-Note how we use `kubectl` with `jsonpath` type output to get the ingress public IP.
+Note how we use `kubectl` with `jsonpath` type output to get the ingress public IP. We can now leverage the wildcard FQDN `*.thanos.cookingwithazure.com` in our ingresses and cert-manager will be able to obtain the relative certificate seamlessly.
 
 ### Storage account preparation
 
@@ -118,7 +119,9 @@ kubectl create ns prometheus
 kubectl create secret generic -n thanos basic-auth --from-file=auth
 
 #for Prometheus remote write
-kubectl create secret generic -n prometheus remotewrite-secret --from-literal=user=thanos --from-literal=password=$(cat pass)
+kubectl create secret generic -n prometheus remotewrite-secret \
+--from-literal=user=thanos \
+--from-literal=password=$(cat pass)
 ```
 
 We now have the secrets in place for the ingresses and for deploying Prometheus.
@@ -131,7 +134,7 @@ We will use the [Bitnami chart](https://github.com/bitnami/charts/tree/master/bi
 helm upgrade -i thanos -n monitoring --create-namespace --values thanos-values.yaml bitnami/thanos
 ```
 
-Let's go thru the relevant sections of the [values file](assets/stateless-monitoring-with-aks-thanos-prometheus-grafana/files/thanos-values.yaml):
+Let's go thru the relevant sections of the [values file](https://github.com/ams0/ams0/blob/67ecf89e72c3b21dc5e603b20e509dc4018d9471/blog/dev.to/posts/assets/stateless-monitoring-with-aks-thanos-prometheus-grafana/files/thanos-values.yaml#L1):
 
 ```yaml
 objstoreConfig: |-
@@ -184,7 +187,7 @@ Until full support for Agent mode lands in the Prometheus operator (follow this 
 helm  upgrade -i -n prometheus promremotewrite -f prom-remotewrite.yaml prometheus-community/kube-prometheus-stack
 ```
 
-Let's go thru the [values file](assets/stateless-monitoring-with-aks-thanos-prometheus-grafana/files/prometheus-values.yaml) to explain the options we need to enable remote-write:
+Let's go thru the [values file](https://github.com/ams0/ams0/blob/67ecf89e72c3b21dc5e603b20e509dc4018d9471/blog/dev.to/posts/assets/stateless-monitoring-with-aks-thanos-prometheus-grafana/files/prometheus-values.yaml) to explain the options we need to enable remote-write:
 
 ```yaml
 prometheus:
