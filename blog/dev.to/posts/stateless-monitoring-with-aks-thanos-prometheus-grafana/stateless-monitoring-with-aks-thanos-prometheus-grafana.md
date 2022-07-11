@@ -1,19 +1,16 @@
 ---
-title: Stateless, Secretless OSS Monitoring in Azure Kubernetes Service with Thanos, Prometheus and Azure Managed Grafana 
+title: Stateless, Secretless Multi-cluster Monitoring in Azure Kubernetes Service with Thanos, Prometheus and Azure Managed Grafana 
 published: false
 description: A simple test article
 tags: 'thanos, azure, prometheus, grafana, aks'
 cover_image: ./assets/cat.jpg
 canonical_url: null
 ---
-
-Some random text with a [link](https://code.visualstudio.com).
-
 ## Stateless, Secretless OSS Monitoring in Azure Kubernetes Service with Thanos, Prometheus and Azure Managed Grafana 
 
 ### Introduction 
 
-Observability is 
+Observability is paramount to every distributed system and it's becoming increasingly complicated in a cloud native world where we might deploy multiple ephemeral clusters and we want to keep their metrics beyond their lifecycle span.
 
 
 ### Prerequisites
@@ -85,7 +82,7 @@ Once you have created or identified the storage account to use and created a con
 clientid=$(az aks show -g <rg> -n <cluster_name> -o json --query identityProfile.kubeletidentity.clientId)
 ```
 
-Now, assign the role of `Reader and Data Access` to the **Storage account** (you need this so the cloud controller can generate access keys for the containers) and the `Storage Blob Data Contributor` role **to the container only** (there's no need to give this permission at the storage account level, because it will enable writing to *every* container, which we don't need. Always remember to apply the [principles of least priviliges](https://www.cisa.gov/uscert/bsi/articles/knowledge/principles/least-privilege)!)
+Now, assign the role of `Reader and Data Access` to the **Storage account** (you need this so the cloud controller can generate access keys for the containers) and the `Storage Blob Data Contributor` role **to the container only** (there's no need to give this permission at the storage account level, because it will enable writing to *every* container, which we don't need. Always remember to apply the [principles of least privileges](https://www.cisa.gov/uscert/bsi/articles/knowledge/principles/least-privilege)!)
 
 
 ```
@@ -112,6 +109,8 @@ kubectl create secret generic -n thanos basic-auth --from-file=auth
 kubectl create secret generic -n prometheus remotewrite-secret --from-literal=user=thanos --from-literal=password=$(cat pass)
 ```
 
+We now have the secrets in place for the ingresses and for deploying Prometheus.
+
 ### Deploying Thanos
 
 We will use the [Bitnami chart](https://github.com/bitnami/charts/tree/master/bitnami/thanos/) to deploy the Thanos components we need.
@@ -120,7 +119,7 @@ We will use the [Bitnami chart](https://github.com/bitnami/charts/tree/master/bi
 helm upgrade -i thanos -n monitoring --create-namespace --values thanos-values.yaml bitnami/thanos
 ```
 
-Let's go thru the relevant sections of the [values file](blog/dev.to/posts/assets/stateless-monitoring-with-aks-thanos-prometheus-grafana/files/thanos-values.yaml):
+Let's go thru the relevant sections of the [values file](assets/stateless-monitoring-with-aks-thanos-prometheus-grafana/files/thanos-values.yaml):
 
 ```
 objstoreConfig: |-
@@ -165,4 +164,60 @@ queryFrontend:
 
 The annotation references the `basic-auth` secret we created before from the `htpasswd` credentials. Note that the same annotations are also under the `receive` section, as we're using the exact same secret for pushing metrics *into* Thanos (although with a different `hostname`).
 
-# Prometheus remote-write 
+### Prometheus remote-write 
+
+Until full support for Agent mode lands in the Prometheus operator (follow this [issue](https://github.com/prometheus-community/helm-charts/issues/1519)), we can use the [remote write feature](https://prometheus.io/docs/operating/integrations/#remote-endpoints-and-storage) to ship every metrics instantly to a remote endpoint, in our case represented by the Thanos Query Frontend ingress. Let's start by deploying Prometheus using the [kube-prometheus-stack helm chart](https://github.com/prometheus-community/helm-charts/tree/main/charts/kube-prometheus-stack):
+
+```
+helm  upgrade -i -n prometheus promremotewrite -f prom-remotewrite.yaml prometheus-community/kube-prometheus-stack
+```
+
+Let's go thru the [values file](assets/stateless-monitoring-with-aks-thanos-prometheus-grafana/files/prometheus-values.yaml) to explain the options we need to enable remote-write:
+
+```
+prometheus:
+  enabled: true
+  prometheusSpec:
+    externalLabels:
+      datacenter: westeu
+      cluster: playground
+```
+This enables Prometheus and attaches two extra labels to every metrics, so it becomes easier to filter data coming from multiple sources/clusters later in Grafana. 
+
+```
+    remoteWrite:
+    - url: "https://receive.thanos.cookingwithazure.com/api/v1/receive"
+      name: Thanos
+      basicAuth:
+        username:
+          name: remotewrite-secret
+          key: user
+        password:
+          name: remotewrite-secret
+          key: password
+```
+
+This section points to the remote endpoint (secured via SSL using Let's Encrypt certificates, thus trusted by the certificate store on the AKS nodes; if you use a non-trusted certificate, refer to the [TLSConfig](https://github.com/prometheus-operator/prometheus-operator/blob/main/Documentation/api.md#tlsconfig) section of the PrometheusSpec API). Note how the credentials to access the remote endpoint are coming from the secret created beforehand and stored in the `prometheus` namespace.
+
+Note here that although Prometheus is deployed in the same cluster as Thanos for simplicity, it sends the metrics to the ingress FQDN, thus it's trivial to extend this setup to multiple, remote clusters and collect their metrics into a single, centralized Thanos receive collector (and a single blob storage), with all metrics correctly tagged and identifiable.
+### Observing the stack with Azure Managed Grafana
+
+[Azure Managed Grafana](https://azure.microsoft.com/en-us/services/managed-grafana/)(AME) is a new offering in the toolset of observability tools in Azure, and it's based on the popular open source dashboarding system [Grafana](https://grafana.com). Beside out of the box integration with Azure, AME is a fully functional Grafana deployment that can be used to monitor and graph different sources, including Thanos and Prometheus. To start, head to the Azure Portal and deploy AME; then, get the endpoint from the Overview tab and connect to your AME instance.
+
+Add a new source of type Prometheus and basic authentication (the same we created before):
+
+![Datasources](../assets/stateless-monitoring-with-aks-thanos-prometheus-grafana/images/datasource.png)
+
+Congratulations! We can now visualize the data flowing from Prometheus, we only need a dashboard to properly display the data. Go to (on the left side navigation bar) Dashboards-> Browse and click on Import; import the "Kubernetes / Views / Global" (ID: 15757) into your Grafana and you'll be able to see the metrics from the cluster:
+
+![Dashboard](../assets/stateless-monitoring-with-aks-thanos-prometheus-grafana/images/dashboard.png).
+
+<div class="warning" style='padding:0.1em; background-color:#E9D8FD; color:#69337A'>
+<span>
+<p style='margin-top:1em; text-align:center'>
+<b>Cluster filtering</b></p>
+<p style='margin-left:1em;'>
+The imported dashboard has no filter for cluster or region, thus will show all cluster metrics aggregated. We will show in a future post how to add a variable to a Grafana dashboard to properly select and filter cluster views. 
+</p>
+</span>
+</div>
