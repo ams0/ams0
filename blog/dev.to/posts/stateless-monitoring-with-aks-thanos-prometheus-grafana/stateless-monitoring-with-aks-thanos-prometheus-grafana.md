@@ -22,7 +22,6 @@ This solution builds upon well-established Cloud Native Computing Foundation ([C
 
 This article was inspired by several sources, most importantly this two articles: [Using Azure Kubernetes Service with Grafana and Prometheus](https://techcommunity.microsoft.com/t5/apps-on-azure-blog/using-azure-kubernetes-service-with-grafana-and-prometheus/ba-p/3020459) and [Store Prometheus Metrics with Thanos, Azure Storage and Azure Kubernetes Service](https://techcommunity.microsoft.com/t5/apps-on-azure-blog/store-prometheus-metrics-with-thanos-azure-storage-and-azure/ba-p/3067849) on [Microsoft Techcommunity blog](https://techcommunity.microsoft.com).
 
-
 ### Prerequisites
 
 - An 1.23 or 1.24 AKS cluster with either a user-managed identity assigned to the kubelet identity or system-assigned identity
