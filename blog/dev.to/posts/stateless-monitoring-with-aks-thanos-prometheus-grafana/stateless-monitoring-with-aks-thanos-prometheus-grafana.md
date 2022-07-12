@@ -8,7 +8,7 @@ tags:
   - aks
   - observability
 series: observability
-cover_image: https://github.com/ams0/ams0/blob/0df7f60c1f426acd34450bb125388ca5f8a5df74/blog/dev.to/posts/assets/stateless-monitoring-with-aks-thanos-prometheus-grafana/images/cover.png
+cover_image: https://raw.githubusercontent.com/ams0/ams0/deddfb117c95f739fda88c00a963604b9df3dd59/blog/dev.to/posts/stateless-monitoring-with-aks-thanos-prometheus-grafana/assets/images/cover.png
 canonical_url: null
 ---
 
@@ -33,7 +33,7 @@ This solution builds upon well-established Cloud Native Computing Foundation ([C
 
 We will deploy all components of Thanos and Prometheus in a single cluster, but since they are couple only via the ingress they don't need to be co-located.
 
-![Diagram](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/y46w9otcmi0562n13d4p.png)
+![Diagram](https://raw.githubusercontent.com/ams0/ams0/deddfb117c95f739fda88c00a963604b9df3dd59/blog/dev.to/posts/stateless-monitoring-with-aks-thanos-prometheus-grafana/assets/images/stateless_thanos.png)
 
 ### Cluster-wide services
 
@@ -77,7 +77,7 @@ spec:
 EOF
 ```
 
-Last but not least, we will add add DNS record for our ingress Loadbalancer IP, so it will be seamless to get public FQDNs for our endpoints for Thanos receive and Thanos Query.
+Last but not least, we will add a DNS record for our ingress Loadbalancer IP, so it will be seamless to get public FQDNs for our endpoints for Thanos receive and Thanos Query.
 
 ```bash
 az network dns record-set a add-record  -n "*.thanos" -g dns -z cookingwithazure.com \
