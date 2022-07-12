@@ -137,7 +137,7 @@ We will use the [Bitnami chart](https://github.com/bitnami/charts/tree/master/bi
 helm upgrade -i thanos -n monitoring --create-namespace --values thanos-values.yaml bitnami/thanos
 ```
 
-Let's go thru the relevant sections of the [values file](https://github.com/ams0/ams0/blob/67ecf89e72c3b21dc5e603b20e509dc4018d9471/blog/dev.to/posts/assets/stateless-monitoring-with-aks-thanos-prometheus-grafana/files/thanos-values.yaml#L1):
+Let's go thru the relevant sections of the [values file](https://github.com/ams0/ams0/blob/main/blog/dev.to/posts/stateless-monitoring-with-aks-thanos-prometheus-grafana/assets/files/thanos-values.yaml):
 
 ```yaml
 objstoreConfig: |-
@@ -190,7 +190,7 @@ Until full support for Agent mode lands in the Prometheus operator (follow this 
 helm  upgrade -i -n prometheus promremotewrite -f prom-remotewrite.yaml prometheus-community/kube-prometheus-stack
 ```
 
-Let's go thru the [values file](https://github.com/ams0/ams0/blob/67ecf89e72c3b21dc5e603b20e509dc4018d9471/blog/dev.to/posts/assets/stateless-monitoring-with-aks-thanos-prometheus-grafana/files/prometheus-values.yaml) to explain the options we need to enable remote-write:
+Let's go thru the [values file](https://github.com/ams0/ams0/blob/main/blog/dev.to/posts/stateless-monitoring-with-aks-thanos-prometheus-grafana/assets/files/prometheus-values.yaml) to explain the options we need to enable remote-write:
 
 ```yaml
 prometheus:
@@ -226,11 +226,11 @@ Note here that although Prometheus is deployed in the same cluster as Thanos for
 
 Add a new source of type Prometheus and basic authentication (the same we created before):
 
-![Datasource](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rp7zoycug6ciw8p58h0m.png)
+![Datasource](https://raw.githubusercontent.com/ams0/ams0/main/blog/dev.to/posts/stateless-monitoring-with-aks-thanos-prometheus-grafana/assets/images/datasource.png)
 
 Congratulations! We can now visualize the data flowing from Prometheus, we only need a dashboard to properly display the data. Go to (on the left side navigation bar) Dashboards-> Browse and click on Import; import the "Kubernetes / Views / Global" (ID: 15757) into your Grafana and you'll be able to see the metrics from the cluster:
 
-![Dashboard](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/x79274b48vev1dtmw5p5.png)
+![Dashboard](https://github.com/ams0/ams0/raw/main/blog/dev.to/posts/stateless-monitoring-with-aks-thanos-prometheus-grafana/assets/images/dashboard.png)
 
 The imported dashboard has no filter for cluster or region, thus will show all cluster metrics aggregated. We will show in a future post how to add a variable to a Grafana dashboard to properly select and filter cluster views.
 
