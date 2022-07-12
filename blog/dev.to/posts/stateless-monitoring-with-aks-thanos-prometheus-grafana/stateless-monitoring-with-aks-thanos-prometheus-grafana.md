@@ -20,6 +20,9 @@ This article aims at cloud native engineers that face the challenge of observing
 
 This solution builds upon well-established Cloud Native Computing Foundation ([CNCF](https://cncf.io)) open source projects like [Thanos](https://thanos.io) and [Prometheus](https://prometheus.io),together with a new managed services, Azure Managed Grafana, [recently released in public preview](https://azure.microsoft.com/en-us/blog/enhance-your-data-visualizations-with-azure-managed-grafana-now-in-preview/). It allows for ephemeral clusters to still have updated metrics without the 2-hours local storage of metrics in the classic deployment of Thanos sidecar to Prometheus.
 
+This article was inspired by several sources, most importantly this two articles: [Using Azure Kubernetes Service with Grafana and Prometheus](https://techcommunity.microsoft.com/t5/apps-on-azure-blog/using-azure-kubernetes-service-with-grafana-and-prometheus/ba-p/3020459) and [Store Prometheus Metrics with Thanos, Azure Storage and Azure Kubernetes Service](https://techcommunity.microsoft.com/t5/apps-on-azure-blog/store-prometheus-metrics-with-thanos-azure-storage-and-azure/ba-p/3067849) on [Microsoft Techcommunity blog](https://techcommunity.microsoft.com).
+
+
 ### Prerequisites
 
 - An 1.23 or 1.24 AKS cluster with either a user-managed identity assigned to the kubelet identity or system-assigned identity
