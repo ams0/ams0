@@ -11,7 +11,7 @@
 
 I'm Alessandro, a software engineer living in Amsterdam, working at Microsoft and in my spare time as trainer for all things Cloud Native & Kubernetes. I organize the [Dutch Kubernetes Meetup](https://www.meetup.com/Dutch-Kubernetes-Meetup/) and [Kubernetes Community Days Amsterdam](https://kubernetescommunitydays.org/events/2021-amsterdam/).
 
-Here's [my public GPG key](files/gpgkey.pub) (also on [OpenGPG.org](https://keys.openpgp.org/verify/hTwPB9RLSEjw2OEa6XDE0QRHPK3i3i1HbInXlJ5iBlc)). If you're into those old pesky _Curriculum Vitae_, check this [out](https://github.com/ams0/ams0/blob/7b030cef53c89d9f1ad3ef23ae429b47f7e1e328/files/CV-2021.pdf).
+Here's [my public GPG key](files/gpgkey.pub) (also on [OpenGPG.org](https://keys.openpgp.org/verify/hTwPB9RLSEjw2OEa6XDE0QRHPK3i3i1HbInXlJ5iBlc)). If you're into those old pesky _Curriculum Vitae_, check this [out](https://github.com/ams0/ams0/blob/main/files/CV-2021.pdf).
 
 ### Things I believe in:
 
