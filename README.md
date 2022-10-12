@@ -66,11 +66,11 @@ After my experience at the UvA, I switched careers and moved thru a number of or
 ### :zap: Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#389](https://github.com/cncf/kubernetes-community-days/issues/389) in [cncf/kubernetes-community-days](https://github.com/cncf/kubernetes-community-days)
-2. 🗣 Commented on [#75](https://github.com/Azure/kubernetes-volume-drivers/issues/75) in [Azure/kubernetes-volume-drivers](https://github.com/Azure/kubernetes-volume-drivers)
-3. ❗️ Opened issue [#167](https://github.com/kube-green/kube-green/issues/167) in [kube-green/kube-green](https://github.com/kube-green/kube-green)
-4. 🗣 Commented on [#441](https://github.com/cncf/kubernetes-community-days/issues/441) in [cncf/kubernetes-community-days](https://github.com/cncf/kubernetes-community-days)
-5. 🗣 Commented on [#389](https://github.com/cncf/kubernetes-community-days/issues/389) in [cncf/kubernetes-community-days](https://github.com/cncf/kubernetes-community-days)
-6. 🗣 Commented on [#4830](https://github.com/openservicemesh/osm/issues/4830) in [openservicemesh/osm](https://github.com/openservicemesh/osm)
+1. 🎉 Merged PR [#58](https://github.com/cloudnative-amsterdam/public-website/pull/58) in [cloudnative-amsterdam/public-website](https://github.com/cloudnative-amsterdam/public-website)
+2. 🗣 Commented on [#389](https://github.com/cncf/kubernetes-community-days/issues/389) in [cncf/kubernetes-community-days](https://github.com/cncf/kubernetes-community-days)
+3. 🗣 Commented on [#75](https://github.com/Azure/kubernetes-volume-drivers/issues/75) in [Azure/kubernetes-volume-drivers](https://github.com/Azure/kubernetes-volume-drivers)
+4. ❗️ Opened issue [#167](https://github.com/kube-green/kube-green/issues/167) in [kube-green/kube-green](https://github.com/kube-green/kube-green)
+5. 🗣 Commented on [#441](https://github.com/cncf/kubernetes-community-days/issues/441) in [cncf/kubernetes-community-days](https://github.com/cncf/kubernetes-community-days)
+6. 🗣 Commented on [#389](https://github.com/cncf/kubernetes-community-days/issues/389) in [cncf/kubernetes-community-days](https://github.com/cncf/kubernetes-community-days)
 7. 🗣 Commented on [#389](https://github.com/cncf/kubernetes-community-days/issues/389) in [cncf/kubernetes-community-days](https://github.com/cncf/kubernetes-community-days)
 <!--END_SECTION:activity-->
