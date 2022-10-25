@@ -49,10 +49,10 @@ After my experience at the UvA, I switched careers and moved thru a number of or
 ### How to reach me:
 
 - Twitter: [@bongo](https://twitter.com/bongo)
-- LinkedIn: [Alessandro Vozza](https://www.linkedin.com/in/tim-van-de-keer-bb5a1966/)
+- LinkedIn: [Alessandro Vozza](https://www.linkedin.com/in/alessandrovozza)
 - Slack: alessandro @ [slack.k8s.io](https://slack.k8s.io)
 - Discord: huxley#2417
-- Good 'ol [email](alessandro.vozza@microsoft.com)
+- Good 'ol [email](mailto:alessandro.vozza@microsoft.com)
 
 ### 📈 &nbsp;Analytics
 
