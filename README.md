@@ -66,11 +66,11 @@ After my experience at the UvA, I switched careers and moved thru a number of or
 ### :zap: Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#2](https://github.com/ams0/ams0/issues/2) in [ams0/ams0](https://github.com/ams0/ams0)
-2. 🎉 Merged PR [#2](https://github.com/ams0/ams0/pull/2) in [ams0/ams0](https://github.com/ams0/ams0)
-3. ❗️ Closed issue [#69](https://github.com/namecheap/terraform-provider-namecheap/issues/69) in [namecheap/terraform-provider-namecheap](https://github.com/namecheap/terraform-provider-namecheap)
-4. 🗣 Commented on [#69](https://github.com/namecheap/terraform-provider-namecheap/issues/69) in [namecheap/terraform-provider-namecheap](https://github.com/namecheap/terraform-provider-namecheap)
-5. 🗣 Commented on [#69](https://github.com/namecheap/terraform-provider-namecheap/issues/69) in [namecheap/terraform-provider-namecheap](https://github.com/namecheap/terraform-provider-namecheap)
-6. ❗️ Opened issue [#69](https://github.com/namecheap/terraform-provider-namecheap/issues/69) in [namecheap/terraform-provider-namecheap](https://github.com/namecheap/terraform-provider-namecheap)
-7. 🎉 Merged PR [#58](https://github.com/cloudnative-amsterdam/public-website/pull/58) in [cloudnative-amsterdam/public-website](https://github.com/cloudnative-amsterdam/public-website)
+1. 🗣 Commented on [#3](https://github.com/ams0/ams0/issues/3) in [ams0/ams0](https://github.com/ams0/ams0)
+2. 🎉 Merged PR [#3](https://github.com/ams0/ams0/pull/3) in [ams0/ams0](https://github.com/ams0/ams0)
+3. 🗣 Commented on [#2](https://github.com/ams0/ams0/issues/2) in [ams0/ams0](https://github.com/ams0/ams0)
+4. 🎉 Merged PR [#2](https://github.com/ams0/ams0/pull/2) in [ams0/ams0](https://github.com/ams0/ams0)
+5. ❗️ Closed issue [#69](https://github.com/namecheap/terraform-provider-namecheap/issues/69) in [namecheap/terraform-provider-namecheap](https://github.com/namecheap/terraform-provider-namecheap)
+6. 🗣 Commented on [#69](https://github.com/namecheap/terraform-provider-namecheap/issues/69) in [namecheap/terraform-provider-namecheap](https://github.com/namecheap/terraform-provider-namecheap)
+7. 🗣 Commented on [#69](https://github.com/namecheap/terraform-provider-namecheap/issues/69) in [namecheap/terraform-provider-namecheap](https://github.com/namecheap/terraform-provider-namecheap)
 <!--END_SECTION:activity-->
