@@ -48,3 +48,5 @@ https://github.com/cilium/star-wars-demo
 ```bash
 git clone git@github.com:cilium/star-wars-demo.git ; cd star-wars-demo
 kubectl create -f 01-deathstar.yaml -f 02-xwing.yaml
+```
+
