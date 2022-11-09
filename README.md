@@ -66,11 +66,11 @@ After my experience at the UvA, I switched careers and moved thru a number of or
 ### :zap: Recent Activity
 
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#13](https://github.com/Azure/acr-build/pull/13) in [Azure/acr-build](https://github.com/Azure/acr-build)
-2. 💪 Opened PR [#12](https://github.com/Azure/acr-build/pull/12) in [Azure/acr-build](https://github.com/Azure/acr-build)
-3. 🎉 Merged PR [#8](https://github.com/Azure/acr-build/pull/8) in [Azure/acr-build](https://github.com/Azure/acr-build)
-4. 🗣 Commented on [#3](https://github.com/ams0/ams0/issues/3) in [ams0/ams0](https://github.com/ams0/ams0)
-5. 🎉 Merged PR [#3](https://github.com/ams0/ams0/pull/3) in [ams0/ams0](https://github.com/ams0/ams0)
-6. 🗣 Commented on [#2](https://github.com/ams0/ams0/issues/2) in [ams0/ams0](https://github.com/ams0/ams0)
-7. 🎉 Merged PR [#2](https://github.com/ams0/ams0/pull/2) in [ams0/ams0](https://github.com/ams0/ams0)
+1. ❗️ Opened issue [#1448](https://github.com/cncf/glossary/issues/1448) in [cncf/glossary](https://github.com/cncf/glossary)
+2. 💪 Opened PR [#13](https://github.com/Azure/acr-build/pull/13) in [Azure/acr-build](https://github.com/Azure/acr-build)
+3. 💪 Opened PR [#12](https://github.com/Azure/acr-build/pull/12) in [Azure/acr-build](https://github.com/Azure/acr-build)
+4. 🎉 Merged PR [#8](https://github.com/Azure/acr-build/pull/8) in [Azure/acr-build](https://github.com/Azure/acr-build)
+5. 🗣 Commented on [#3](https://github.com/ams0/ams0/issues/3) in [ams0/ams0](https://github.com/ams0/ams0)
+6. 🎉 Merged PR [#3](https://github.com/ams0/ams0/pull/3) in [ams0/ams0](https://github.com/ams0/ams0)
+7. 🗣 Commented on [#2](https://github.com/ams0/ams0/issues/2) in [ams0/ams0](https://github.com/ams0/ams0)
 <!--END_SECTION:activity-->
