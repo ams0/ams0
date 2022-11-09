@@ -66,11 +66,11 @@ After my experience at the UvA, I switched careers and moved thru a number of or
 ### :zap: Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#3](https://github.com/ams0/ams0/issues/3) in [ams0/ams0](https://github.com/ams0/ams0)
-2. 🎉 Merged PR [#3](https://github.com/ams0/ams0/pull/3) in [ams0/ams0](https://github.com/ams0/ams0)
-3. 🗣 Commented on [#2](https://github.com/ams0/ams0/issues/2) in [ams0/ams0](https://github.com/ams0/ams0)
-4. 🎉 Merged PR [#2](https://github.com/ams0/ams0/pull/2) in [ams0/ams0](https://github.com/ams0/ams0)
-5. ❗️ Closed issue [#69](https://github.com/namecheap/terraform-provider-namecheap/issues/69) in [namecheap/terraform-provider-namecheap](https://github.com/namecheap/terraform-provider-namecheap)
-6. 🗣 Commented on [#69](https://github.com/namecheap/terraform-provider-namecheap/issues/69) in [namecheap/terraform-provider-namecheap](https://github.com/namecheap/terraform-provider-namecheap)
-7. 🗣 Commented on [#69](https://github.com/namecheap/terraform-provider-namecheap/issues/69) in [namecheap/terraform-provider-namecheap](https://github.com/namecheap/terraform-provider-namecheap)
+1. 💪 Opened PR [#12](https://github.com/Azure/acr-build/pull/12) in [Azure/acr-build](https://github.com/Azure/acr-build)
+2. 🎉 Merged PR [#8](https://github.com/Azure/acr-build/pull/8) in [Azure/acr-build](https://github.com/Azure/acr-build)
+3. 🗣 Commented on [#3](https://github.com/ams0/ams0/issues/3) in [ams0/ams0](https://github.com/ams0/ams0)
+4. 🎉 Merged PR [#3](https://github.com/ams0/ams0/pull/3) in [ams0/ams0](https://github.com/ams0/ams0)
+5. 🗣 Commented on [#2](https://github.com/ams0/ams0/issues/2) in [ams0/ams0](https://github.com/ams0/ams0)
+6. 🎉 Merged PR [#2](https://github.com/ams0/ams0/pull/2) in [ams0/ams0](https://github.com/ams0/ams0)
+7. ❗️ Closed issue [#69](https://github.com/namecheap/terraform-provider-namecheap/issues/69) in [namecheap/terraform-provider-namecheap](https://github.com/namecheap/terraform-provider-namecheap)
 <!--END_SECTION:activity-->
