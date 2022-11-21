@@ -66,11 +66,11 @@ After my experience at the UvA, I switched careers and moved thru a number of or
 ### :zap: Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#1](https://github.com/istio/ztunnel/issues/1) in [istio/ztunnel](https://github.com/istio/ztunnel)
-2. ❗️ Opened issue [#1448](https://github.com/cncf/glossary/issues/1448) in [cncf/glossary](https://github.com/cncf/glossary)
-3. 💪 Opened PR [#13](https://github.com/Azure/acr-build/pull/13) in [Azure/acr-build](https://github.com/Azure/acr-build)
-4. 💪 Opened PR [#12](https://github.com/Azure/acr-build/pull/12) in [Azure/acr-build](https://github.com/Azure/acr-build)
-5. 🎉 Merged PR [#8](https://github.com/Azure/acr-build/pull/8) in [Azure/acr-build](https://github.com/Azure/acr-build)
-6. 🗣 Commented on [#3](https://github.com/ams0/ams0/issues/3) in [ams0/ams0](https://github.com/ams0/ams0)
-7. 🎉 Merged PR [#3](https://github.com/ams0/ams0/pull/3) in [ams0/ams0](https://github.com/ams0/ams0)
+1. ❗️ Closed issue [#1](https://github.com/cloudpirates/cloudpirates.github.io/issues/1) in [cloudpirates/cloudpirates.github.io](https://github.com/cloudpirates/cloudpirates.github.io)
+2. 🗣 Commented on [#1](https://github.com/cloudpirates/cloudpirates.github.io/issues/1) in [cloudpirates/cloudpirates.github.io](https://github.com/cloudpirates/cloudpirates.github.io)
+3. 🗣 Commented on [#2](https://github.com/cloudpirates/cloudpirates.github.io/issues/2) in [cloudpirates/cloudpirates.github.io](https://github.com/cloudpirates/cloudpirates.github.io)
+4. ❗️ Closed issue [#2](https://github.com/cloudpirates/cloudpirates.github.io/issues/2) in [cloudpirates/cloudpirates.github.io](https://github.com/cloudpirates/cloudpirates.github.io)
+5. 🗣 Commented on [#1](https://github.com/istio/ztunnel/issues/1) in [istio/ztunnel](https://github.com/istio/ztunnel)
+6. ❗️ Opened issue [#1448](https://github.com/cncf/glossary/issues/1448) in [cncf/glossary](https://github.com/cncf/glossary)
+7. 💪 Opened PR [#13](https://github.com/Azure/acr-build/pull/13) in [Azure/acr-build](https://github.com/Azure/acr-build)
 <!--END_SECTION:activity-->
