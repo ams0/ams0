@@ -66,11 +66,11 @@ After my experience at the UvA, I switched careers and moved thru a number of or
 ### :zap: Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#1953](https://github.com/solo-io/gloo-mesh/issues/1953) in [solo-io/gloo-mesh](https://github.com/solo-io/gloo-mesh)
-2. ❗️ Closed issue [#1](https://github.com/cloudpirates/cloudpirates.github.io/issues/1) in [cloudpirates/cloudpirates.github.io](https://github.com/cloudpirates/cloudpirates.github.io)
-3. 🗣 Commented on [#1](https://github.com/cloudpirates/cloudpirates.github.io/issues/1) in [cloudpirates/cloudpirates.github.io](https://github.com/cloudpirates/cloudpirates.github.io)
-4. 🗣 Commented on [#2](https://github.com/cloudpirates/cloudpirates.github.io/issues/2) in [cloudpirates/cloudpirates.github.io](https://github.com/cloudpirates/cloudpirates.github.io)
-5. ❗️ Closed issue [#2](https://github.com/cloudpirates/cloudpirates.github.io/issues/2) in [cloudpirates/cloudpirates.github.io](https://github.com/cloudpirates/cloudpirates.github.io)
-6. 🗣 Commented on [#1](https://github.com/istio/ztunnel/issues/1) in [istio/ztunnel](https://github.com/istio/ztunnel)
-7. ❗️ Opened issue [#1448](https://github.com/cncf/glossary/issues/1448) in [cncf/glossary](https://github.com/cncf/glossary)
+1. 🗣 Commented on [#80413](https://github.com/MicrosoftDocs/azure-docs/issues/80413) in [MicrosoftDocs/azure-docs](https://github.com/MicrosoftDocs/azure-docs)
+2. 🗣 Commented on [#1953](https://github.com/solo-io/gloo-mesh/issues/1953) in [solo-io/gloo-mesh](https://github.com/solo-io/gloo-mesh)
+3. ❗️ Closed issue [#1](https://github.com/cloudpirates/cloudpirates.github.io/issues/1) in [cloudpirates/cloudpirates.github.io](https://github.com/cloudpirates/cloudpirates.github.io)
+4. 🗣 Commented on [#1](https://github.com/cloudpirates/cloudpirates.github.io/issues/1) in [cloudpirates/cloudpirates.github.io](https://github.com/cloudpirates/cloudpirates.github.io)
+5. 🗣 Commented on [#2](https://github.com/cloudpirates/cloudpirates.github.io/issues/2) in [cloudpirates/cloudpirates.github.io](https://github.com/cloudpirates/cloudpirates.github.io)
+6. ❗️ Closed issue [#2](https://github.com/cloudpirates/cloudpirates.github.io/issues/2) in [cloudpirates/cloudpirates.github.io](https://github.com/cloudpirates/cloudpirates.github.io)
+7. 🗣 Commented on [#1](https://github.com/istio/ztunnel/issues/1) in [istio/ztunnel](https://github.com/istio/ztunnel)
 <!--END_SECTION:activity-->
