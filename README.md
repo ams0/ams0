@@ -9,7 +9,7 @@
 <br><a href= "https://calendly.com/cloudpirates/30min">Book a meeting with me</a>
 </p>
 
-I'm Alessandro, a software engineer living in Amsterdam, working at Microsoft and in my spare time as trainer for all things Cloud Native & Kubernetes. I organize the [Dutch Kubernetes Meetup](https://www.meetup.com/Dutch-Kubernetes-Meetup/) and [Kubernetes Community Days Amsterdam](https://kubernetescommunitydays.org/events/2021-amsterdam/).
+I'm Alessandro, a software engineer and developer advocate living in Amsterdam, working at [Solo.io](https://solo.io) and in my spare time as trainer for all things Cloud Native & Kubernetes. I organize the [Dutch Kubernetes Meetup](https://www.meetup.com/Dutch-Kubernetes-Meetup/) and [Kubernetes Community Days Amsterdam](https://cloudnative.amsterdam).
 
 Here's [my public GPG key](files/gpgkey.pub) (also on [OpenGPG.org](https://keys.openpgp.org/verify/hTwPB9RLSEjw2OEa6XDE0QRHPK3i3i1HbInXlJ5iBlc)). If you're into those old pesky _Curriculum Vitae_, check this [out](https://github.com/ams0/ams0/blob/main/files/CV2023.pdf).
 
@@ -42,7 +42,7 @@ I discovered Linux in 1999, installing [Slackware 0.9](http://www.slackware.com/
 
 I studied chemistry all my academic life, and I attended the Ph.D. program at the University of Amsterdam under Professor Fred Brouwer. I published a few scientific articles, here's a [list](https://www.researchgate.net/scientific-contributions/Alessandro-Vozza-42522315). My research was mainly about synthetic organic synthesis of metal-organic compounds and their study with ultrafast femtosecond laser spectroscopy.
 
-After my experience at the UvA, I switched careers and moved thru a number of organizations until I scored my dream job at Red Hat (for an open source software lover, there was nothing better!). I eventually left and stared my own company, [Lovelace Engineering](http://lovelace.engineering/) (in memory of [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace)), and after a while joined Microsoft as Technical Evangelist and now as a Principal Software Engineer in the Commercial Software Engineering organization.
+After my experience at the UvA, I switched careers and moved thru a number of organizations until I scored my dream job at Red Hat (for an open source software lover, there was nothing better!). I eventually left and stared my own company, [Lovelace Engineering](http://lovelace.engineering/) (in memory of [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace)), and after a while joined Microsoft as Technical Evangelist and now as a Principal Software Engineer in the Commercial Software Engineering organization. At the end of 2022 I switched to [Solo.io](https://solo.io) to follow my passion for advocacy and public speaking, in the role of platform advocate, to fulfill my mission to install a Service Mesh into each and every Kubernetes clusters on earth!
 
 <img src="images/octo.png" alt="drawing" width="120"/>
 
