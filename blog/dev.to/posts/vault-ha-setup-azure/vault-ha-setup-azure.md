@@ -1,7 +1,7 @@
-`---
-title: 
+---
+title: (HA)shicorp Vault setup in Azure
 published: false
-description:  
+description:  Setup a failure-tolerant, secure, scalable Vault deployment of Hashicorp Vault in Azure, using a secure MySQL database as backend and storing the unseal keys in Azure Keyvault. All communication is mTLS-secured and the setup is hardened after installation. 
 tags:
   - vault
   - azure
