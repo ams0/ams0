@@ -66,11 +66,11 @@ After my experience at the UvA, I switched careers and moved thru a number of or
 ### :zap: Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#62](https://github.com/cloudnative-amsterdam/public-website/pull/62) in [cloudnative-amsterdam/public-website](https://github.com/cloudnative-amsterdam/public-website)
-2. 🎉 Merged PR [#4](https://github.com/ams0/ams0/pull/4) in [ams0/ams0](https://github.com/ams0/ams0)
-3. 🎉 Merged PR [#5](https://github.com/ams0/ams0/pull/5) in [ams0/ams0](https://github.com/ams0/ams0)
-4. 💪 Opened PR [#5](https://github.com/ams0/ams0/pull/5) in [ams0/ams0](https://github.com/ams0/ams0)
-5. 💪 Opened PR [#4](https://github.com/ams0/ams0/pull/4) in [ams0/ams0](https://github.com/ams0/ams0)
-6. 🗣 Commented on [#16](https://github.com/Azure/acr-build/issues/16) in [Azure/acr-build](https://github.com/Azure/acr-build)
-7. 💪 Opened PR [#92](https://github.com/learntocloud/learn-to-cloud/pull/92) in [learntocloud/learn-to-cloud](https://github.com/learntocloud/learn-to-cloud)
+1. 💪 Opened PR [#4386](https://github.com/EddieHubCommunity/LinkFree/pull/4386) in [EddieHubCommunity/LinkFree](https://github.com/EddieHubCommunity/LinkFree)
+2. 🎉 Merged PR [#62](https://github.com/cloudnative-amsterdam/public-website/pull/62) in [cloudnative-amsterdam/public-website](https://github.com/cloudnative-amsterdam/public-website)
+3. 🎉 Merged PR [#4](https://github.com/ams0/ams0/pull/4) in [ams0/ams0](https://github.com/ams0/ams0)
+4. 🎉 Merged PR [#5](https://github.com/ams0/ams0/pull/5) in [ams0/ams0](https://github.com/ams0/ams0)
+5. 💪 Opened PR [#5](https://github.com/ams0/ams0/pull/5) in [ams0/ams0](https://github.com/ams0/ams0)
+6. 💪 Opened PR [#4](https://github.com/ams0/ams0/pull/4) in [ams0/ams0](https://github.com/ams0/ams0)
+7. 🗣 Commented on [#16](https://github.com/Azure/acr-build/issues/16) in [Azure/acr-build](https://github.com/Azure/acr-build)
 <!--END_SECTION:activity-->
