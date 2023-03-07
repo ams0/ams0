@@ -66,11 +66,11 @@ After my experience at the UvA, I switched careers and moved thru a number of or
 ### :zap: Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#4](https://github.com/rtts/photog/issues/4) in [rtts/photog](https://github.com/rtts/photog)
-2. ❗️ Opened issue [#4](https://github.com/rtts/photog/issues/4) in [rtts/photog](https://github.com/rtts/photog)
-3. 🗣 Commented on [#1012](https://github.com/cncf/tag-security/issues/1012) in [cncf/tag-security](https://github.com/cncf/tag-security)
-4. 🗣 Commented on [#389](https://github.com/cncf/kubernetes-community-days/issues/389) in [cncf/kubernetes-community-days](https://github.com/cncf/kubernetes-community-days)
-5. ❗️ Closed issue [#4](https://github.com/ams0/aks-nvme-ssd-provisioner/issues/4) in [ams0/aks-nvme-ssd-provisioner](https://github.com/ams0/aks-nvme-ssd-provisioner)
-6. 🗣 Commented on [#4](https://github.com/ams0/aks-nvme-ssd-provisioner/issues/4) in [ams0/aks-nvme-ssd-provisioner](https://github.com/ams0/aks-nvme-ssd-provisioner)
-7. 🗣 Commented on [#2975](https://github.com/openSUSE/osem/issues/2975) in [openSUSE/osem](https://github.com/openSUSE/osem)
+1. ❗️ Closed issue [#4](https://github.com/rtts/photog/issues/4) in [rtts/photog](https://github.com/rtts/photog)
+2. 🗣 Commented on [#4](https://github.com/rtts/photog/issues/4) in [rtts/photog](https://github.com/rtts/photog)
+3. 🗣 Commented on [#4](https://github.com/rtts/photog/issues/4) in [rtts/photog](https://github.com/rtts/photog)
+4. ❗️ Opened issue [#4](https://github.com/rtts/photog/issues/4) in [rtts/photog](https://github.com/rtts/photog)
+5. 🗣 Commented on [#1012](https://github.com/cncf/tag-security/issues/1012) in [cncf/tag-security](https://github.com/cncf/tag-security)
+6. 🗣 Commented on [#389](https://github.com/cncf/kubernetes-community-days/issues/389) in [cncf/kubernetes-community-days](https://github.com/cncf/kubernetes-community-days)
+7. ❗️ Closed issue [#4](https://github.com/ams0/aks-nvme-ssd-provisioner/issues/4) in [ams0/aks-nvme-ssd-provisioner](https://github.com/ams0/aks-nvme-ssd-provisioner)
 <!--END_SECTION:activity-->
