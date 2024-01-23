@@ -28,7 +28,7 @@ Here's [my public GPG key](files/gpgkey.pub) (also on [OpenGPG.org](https://keys
 - A [Github Action](https://github.com/ams0/terraform-test-in-azure) to automatically test terraform templates in Azure
 - Some links about the [Certified Kubernetes Security Specialist Exam](https://github.com/ams0/CKS)
 
-You can find my blog on Medium under the [Cooking with Azure](https://medium.com/cooking-with-azure) publication. My (almost) current CV is in [here](https://github.com/ams0/ams0/blob/main/files/CV2023.pdf). I just started using Polywork my profile is at [poly.work/ams0](https://poly.work/ams0)
+You can find my blog on Medium under the [Cooking with Azure](https://medium.com/cooking-with-azure) publication. My (almost) current CV is in [here](https://github.com/ams0/ams0/blob/main/files/CV2024.pdf). I just started using Polywork my profile is at [poly.work/ams0](https://poly.work/ams0)
 
 Some videos of me will soon appear under [/videos](https://github.com/ams0/ams0/tree/main/videos), and I hope to be able to post some cool techno set or track on my [Soundcloud](https://soundcloud.com/djmon0) soon.
 
