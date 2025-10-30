@@ -1,69 +1,89 @@
-### Hi there 👋
+# Alessandro Vozza
 
-<p align="center"><img src="images/me2.png" width="200">
-
-![visitors](https://visitor-badge.glitch.me/badge?page_id=ams0.ams0) <p align="center">
-<a href= "https://medium.com/cooking-with-azure"><img src="https://img.icons8.com/windows/32/000000/medium.png"/></a>
-<a href= "https://www.twitter.com/bongo"><img src="https://img.icons8.com/material-outlined/32/000000/twitter.png"/></a>
-<a href= "https://www.linkedin.com/in/alessandrovozza"><img src="https://img.icons8.com/metro/26/000000/linkedin.png"/></a>
-<br><a href= "https://calendly.com/cloudpirates/30min">Book a meeting with me</a>
+<p align="center">
+  <img src="images/me2.png" width="200" alt="Alessandro Vozza">
 </p>
 
-I'm Alessandro, a software engineer and developer advocate living in Amsterdam, former Red Hat, Microsoft and Solo.io, currently building the next big thing:tm: ([kubespaces.io](https://kubespaces.io)) and in my spare time as trainer for all things Cloud Native & Kubernetes. I organize the [Dutch Kubernetes Meetup](https://www.meetup.com/Dutch-Kubernetes-Meetup/) and [Kubernetes Community Days Amsterdam](https://cloudnative.amsterdam).
+<p align="center">
+  <a href="https://calendly.com/cloudpirates/30min">Book a meeting</a> &nbsp;|&nbsp;
+  <a href="https://medium.com/cooking-with-azure">Writing</a> &nbsp;|&nbsp;
+  <a href="https://www.linkedin.com/in/alessandrovozza">LinkedIn</a> &nbsp;|&nbsp;
+  <a href="files/CV2025.pdf">CV</a>
+</p>
 
-Here's [my public GPG key](files/gpgkey.pub) (also on [OpenGPG.org](https://keys.openpgp.org/verify/hTwPB9RLSEjw2OEa6XDE0QRHPK3i3i1HbInXlJ5iBlc)). If you're into those old pesky _Curriculum Vitae_, check this [out](https://github.com/ams0/ams0/blob/main/files/CV2025.pdf).
+> Senior Solution Engineer for Cloud + AI at <a href="https://www.microsoft.com">Microsoft</a>, Golden Kubestronaut, and community organizer based in Amsterdam. I help teams ship resilient cloud-native platforms, bring AI to production, and keep the Dutch community buzzing.
 
-### Things I believe in:
+## What I'm Working On
 
-- People are foundamentally good, and they'll do good to others and themselves given the opportunity
-- Infrastructure should be transparent, automated and at the service of the application (and eventually, to humans)
-- Good work ethic and no-exception inclusion brings about a positive, productive environment where people thrive and business flourish
-- Diversity is just the way the world is, fighting it with exclusion is an epitome of a toxic mentality
-- Kubernetes is the best thing after fried chicken :)
+- ⚙️ Partnering with customers as part of Microsoft's Cloud + AI engineering team
+- 🎓 Training engineers on Cloud Native, Kubernetes, and Service Mesh best practices
+- 🤝 Organizing the [Dutch Cloud Native + AI Community Group](https://www.meetup.com/Dutch-cloud-native) and leading [Cloud Native Community Days Amsterdam 2026](https://cloudnative.amsterdam)
+- 🎤 Speaking internationally at KubeCon, DevWorld, ExpertsLive UAE, and Cloud Native/KCD events
 
-### Some of my work:
+## Selected Projects & Resources
 
-- Some of my [terraform templates](https://github.com/ams0/terraform-templates)
-- A [Github action](https://github.com/ams0/acr-task-github-action) to build containers with ACR
-- A [Github Action](https://github.com/ams0/terraform-test-in-azure) to automatically test terraform templates in Azure
-- Some links about the [Certified Kubernetes Security Specialist Exam](https://github.com/ams0/CKS)
+- Terraform starters to bootstrap cloud infra: [ams0/terraform-templates](https://github.com/ams0/terraform-templates)
+- Build containers straight from GitHub Actions with [ams0/acr-task-github-action](https://github.com/ams0/acr-task-github-action)
+- Validate Terraform plans in Azure using [ams0/terraform-test-in-azure](https://github.com/ams0/terraform-test-in-azure)
+- Cloud Native certification notes: [Certified Kubernetes Security Specialist](https://github.com/ams0/CKS)
 
-You can find my blog on Medium under the [Cooking with Azure](https://medium.com/cooking-with-azure) publication. My (almost) current CV is in [here](https://github.com/ams0/ams0/blob/main/files/CV2024.pdf). I just started using Polywork my profile is at [poly.work/ams0](https://poly.work/ams0)
+## Writing, Media & Docs
 
-Some videos of me will soon appear under [/videos](https://github.com/ams0/ams0/tree/main/videos), and I hope to be able to post some cool techno set or track on my [Soundcloud](https://soundcloud.com/djmon0) soon.
+- Articles on Medium under the [Cooking with Azure](https://medium.com/cooking-with-azure) publication
+- Talks, demos, and recordings live in [`/videos`](https://github.com/ams0/ams0/tree/main/videos) and [`/demos`](https://github.com/ams0/ams0/tree/main/demos)
+- Music experiments on [SoundCloud](https://soundcloud.com/djmon0)
+- Talk archives and slides from events like KubeCon, DevWorld, ExpertsLive UAE, and Cloud Native Days
+- Public GPG key: [`files/gpgkey.pub`](files/gpgkey.pub) (also on [OpenGPG](https://keys.openpgp.org/verify/hTwPB9RLSEjw2OEa6XDE0QRHPK3i3i1HbInXlJ5iBlc))
+- Latest CV: [`files/CV2025.pdf`](files/CV2025.pdf)
 
-### A little history of me:
+## Speaking
 
-I started working with computers at the early age of 8, with a Commodore64 around 1983, playing games and tinkering around with my [brother](https://www.linkedin.com/in/francescovozza/) on a [Commodore64](https://en.wikipedia.org/wiki/Commodore_64):
+### Upcoming
 
-<center><img src="images/Commodore-64-Computer.png" alt="drawing" width="200"/></center>
+- ExpertsLive UAE — November 12, 2025 — *The USB-C for Your Copilot: Securing MCP Servers with API Management* ([expertslive.ae](http://expertslive.ae))
 
-I discovered Linux in 1999, installing [Slackware 0.9](http://www.slackware.com/) on the old PC's at the Chemistry department of the University of Ferrara (and joined the [Ferrara Linux User Grup](https://ferrara.linux.it/)), and I never really stopped loving open source software.
+### Selected Past
 
-I studied chemistry all my academic life, and I attended the Ph.D. program at the University of Amsterdam under Professor Fred Brouwer. I published a few scientific articles, here's a [list](https://www.researchgate.net/scientific-contributions/Alessandro-Vozza-42522315). My research was mainly about synthetic organic synthesis of metal-organic compounds and their study with ultrafast femtosecond laser spectroscopy.
+- Details coming soon.
 
-After my experience at the UvA, I switched careers and moved thru a number of organizations until I scored my dream job at Red Hat (for an open source software lover, there was nothing better!). I eventually left and stared my own company, [Lovelace Engineering](http://lovelace.engineering/) (in memory of [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace)), and after a while joined Microsoft as Technical Evangelist and now as a Principal Software Engineer in the Commercial Software Engineering organization. At the end of 2022 I switched to [Solo.io](https://solo.io) to follow my passion for advocacy and public speaking, in the role of platform advocate, to fulfill my mission to install a Service Mesh into each and every Kubernetes clusters on earth!
+## A Few Things I Believe
 
-<img src="images/octo.png" alt="drawing" width="120"/>
+- People are fundamentally good and thrive when given trust and opportunity
+- Infrastructure should be transparent, automated, and designed for people - not the other way around
+- Inclusion without exceptions builds the kind of teams where everyone grows and businesses flourish
+- Diversity reflects the real world; resisting it only fuels toxic cultures
+- Kubernetes is the best thing after fried chicken
 
-### How to reach me:
+## Story So Far
 
-- Twitter: [@bongo](https://twitter.com/bongo)
+I wrote my first BASIC programs on a Commodore 64 shared with my brother and never stopped tinkering. By 1999 I was building Linux boxes for the Chemistry department at the University of Ferrara, fell in love with open source, and went on to publish research during my chemistry Ph.D. in Amsterdam.
+
+That curiosity pulled me into software engineering and developer advocacy. I've built platforms and communities at Red Hat, Microsoft, and Solo.io, started [Lovelace Engineering](http://lovelace.engineering/), and today I'm back at Microsoft helping customers harness Cloud + AI while nurturing open communities as a Golden Kubestronaut.
+
+When I'm not coaching teams, you can find me behind a bass guitar, DJ booth, or chasing the next Kubernetes experiment.
+
+<p align="center">
+  <img src="images/Commodore-64-Computer.png" alt="Vintage Commodore 64" width="200">
+</p>
+
+## Reach Out
+
+- Bluesky: [@ams0.bsky.social](https://bsky.app/profile/ams0.bsky.social)
 - LinkedIn: [Alessandro Vozza](https://www.linkedin.com/in/alessandrovozza)
 - Slack: alessandro @ [slack.k8s.io](https://slack.k8s.io)
-- Discord: huxley#2417
-- Good 'ol [email](mailto:alessandro.vozza@microsoft.com)
+- Discord: `ams0#2417`
+- Email: [alessandro.vozza@microsoft.com](mailto:alessandro.vozza@microsoft.com)
 
-### 📈 &nbsp;Analytics
+## 📈 Analytics
 
 <p align="center">
   <a href="https://coderstats.net/github/#ams0">
-    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=ams0&show_icons=true&theme=algolia&include_all_commits=true&count_private=true&line_height=26"/>
-    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=ams0&layout=compact&langs_count=8&theme=algolia&line_height=26"/>
+    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=ams0&show_icons=true&theme=algolia&include_all_commits=true&count_private=true&line_height=26" alt="GitHub stats">
+    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=ams0&layout=compact&langs_count=8&theme=algolia&line_height=26" alt="Top languages">
   </a>
 </p>
 
-### :zap: Recent Activity
+## ⚡️ Recent Activity
 
 <!--START_SECTION:activity-->
 1. ❗️ Closed issue [#389](https://github.com/cncf/kubernetes-community-days/issues/389) in [cncf/kubernetes-community-days](https://github.com/cncf/kubernetes-community-days)
